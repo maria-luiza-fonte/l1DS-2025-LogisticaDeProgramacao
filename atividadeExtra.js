@@ -7,9 +7,16 @@
 Escreva um programa que peça um número ao usuário e exiba no console se ele é par ou ímpar.
 
 
+
 📌 Dica: Use o operador % para verificar o resto da divisão.
 ------------------------------------------------------------------------
 */
+const imparpar = (num) =>{ 
+return num % 2 == 0 ? "O número é par!" : "O número é impar!";
+};
+console.log(imparpar(10));
+console.log(imparpar(3));
+console.log(imparpar(2));
 
 /*
 2. Tabuada
@@ -49,8 +56,9 @@ console.log("Fatorial de 5! =", 5 * 4 * 3 * 2 * 1);
 //4. Soma dos Números de um Array
 //Crie um programa que tenha um array com números aleatórios e exiba no console a soma total desses números.
 console.log("--------------------------------");
-var numero = [10, 20, 30, 40];
-console.log(numero[0] + numero[1] + numero[3]);
+var numero = [10, 20, 30, 40]
+var soma = numero[0] + numero[1] + numero[2] + numero[3];
+console.log(soma)
 
 // 📌 Exemplo:
 // let numeros = [10, 20, 30, 40];
